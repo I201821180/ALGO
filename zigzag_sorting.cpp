@@ -42,18 +42,16 @@ int main()
             if ((x == 0 || x == SIZE-1) && y % 2 == 0)
             {
                 y++;
-                continue;
             }
 
             // 向下移动
-            if ((y == 0 || y == SIZE-1) && x % 2 == 1)
+            else if ((y == 0 || y == SIZE-1) && x % 2 == 1)
             {
                 x++;
-                continue;
             }
 
             // 向左下移动
-            if ((x + y) % 2 == 1)
+            else if ((x + y) % 2 == 1)
             {
                 y--;
                 x++;
