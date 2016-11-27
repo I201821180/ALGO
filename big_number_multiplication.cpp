@@ -56,6 +56,9 @@ int main()
     }
     std::cout << std::endl;
 
+    // 释放内存
+    delete [] ret;
+
     return 0;
 }
 
