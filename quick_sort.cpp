@@ -1,5 +1,5 @@
 /*
- * C++ implementation for the quicksort, complexity O()
+ * C++ implementation for the quicksort, complexity O(NlogN)
  */
 
 #include <iostream>
